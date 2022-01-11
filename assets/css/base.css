@@ -10,6 +10,7 @@
     --star-gold-color:#ffce3e;
     --navbar-height:26px;
     --header-with-search-height:calc(var(--header-height) - var(--navbar-height));
+    --header-sort-bar-height:46px;
 }
 *{
     box-sizing: inherit;
@@ -22,17 +23,6 @@ html{
     box-sizing: border-box;
 }
 /* RESPONSIVE */
-.grid{
-    width: 1200px;
-    /* neu giao dien co chieu ngang be hon
-    1200px thì chiều ngang là 100%
-     */
-    max-width: 100%;
-    margin: 0 auto;
-}
-.grid__full-width{
-    width: 100%;
-}
 .grid__row{
     display: flex;
     flex-wrap: wrap;
